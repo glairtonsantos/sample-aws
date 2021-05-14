@@ -4,6 +4,12 @@ Levando em consideração o problema de alto volume e complexidade dos dados é 
 oferece uma alta disponibilidade e escalabilidade, com isso o AWS é um ambiente cloud maduro que oferece
 uma série de soluções que ajudam na resolução de problemas nesse cenário.
 
+## Arquitetura Microserviço na AWS
+
+*obs: Clique para expandir a imagem:*
+
+<img alt="arquitetura" title="Arquitetura Sugerida" src="assets/arquitetura.png" />
+
 ## Armazenamento
 
 O serviço Amazon RDS é uma boa alternativa para os bancos de dados, esse serviço fornece capacidade econômica e redimensionável para banco de dados relacional padrão do setor e gerencia tarefas comuns de administração de banco de dados.
@@ -162,9 +168,3 @@ GET `<rota_s3>/clientes/{cpf}/consultar`
 ## Disponibilização dos Dados
 
 É possível criar uma aplicação WEB em React para disponibilizar as informações, é possível disponibilizar o *build* no **AWS S3**
-
-## Arquitetura Microserviço na AWS
-
-*obs: Clique para expandir a imagem:*
-
-<img alt="arquitetura" title="Arquitetura Sugerida" src="assets/arquitetura.png" />
