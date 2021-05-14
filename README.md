@@ -1,7 +1,7 @@
 # Sample AWS
 
 Levando em consideração o problema de alto volume e complexidade dos dados é necessário uma arquitetura que 
-ofecere uma alta disponibilidade e escalabilidade, com isso o AWS é um ambiente cloud maduro que oferece
+oferece uma alta disponibilidade e escalabilidade, com isso o AWS é um ambiente cloud maduro que oferece
 uma série de soluções que ajudam na resolução de problemas nesse cenário.
 
 ## Armazenamento
@@ -25,11 +25,11 @@ o [MongoDB](https://docs.mongodb.com/manual/introduction/) é um banco *NoSQL* q
 
 ## Tráfego
 
-Usando o **Elastic Beanstalk** podemos reduz a complexidade do gerenciamento, o maior beneficio é a facilidade de escalabilidade, provisionamento de capacidade e o balanceamento de carga. Utilizando o serviço **API Gateway** da **AWS** podemos facilitar a disponibilidade dos microserviços.
+Usando o **Elastic Beanstalk** podemos reduzir a complexidade do gerenciamento. O maior beneficio é a facilidade de escalabilidade, provisionamento de capacidade e o balanceamento de carga. Utilizando o serviço **API Gateway** da **AWS** podemos facilitar a disponibilidade dos microserviços.
 
 ### Sistema A
 
-Serviço é em python/DRF, como vai ser responsável por manipular dados sensíveis um framework com uma boa interface de segurança e um ORM maduro é o ideal, e o DRF oferece isso.
+O serviço é em python/DRF, como vai ser responsável por manipular dados sensíveis, um framework com uma boa interface de segurança e um ORM maduro é o ideal, e o DRF oferece isso.
 
 ex: **Listagem de Clientes**
 
@@ -79,7 +79,7 @@ GET `<rota_s1>/clientes?nome=<string>&cpf=<string>`
 
 ### Sistema B
 
-Serviço B também em python/DRF, vai ser responsavél pelo dados do *score*
+O serviço B também em python/DRF, vai ser responsavél pelo dados do *score*
 ex: **Listagem de Clientes**
 
 GET `<rota_s2>/clientes/{id}/score-data`
