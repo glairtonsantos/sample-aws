@@ -165,4 +165,6 @@ GET `<rota_s3>/clientes/{cpf}/consultar`
 
 ## Arquitetura Microserviço na AWS
 
+*obs: Clique para expandir a imagem:*
+
 <img alt="arquitetura" title="Arquitetura Sugerida" src="assets/arquitetura.png" />
