@@ -125,7 +125,7 @@ GET `<rota_s2>/clientes/{id}/score-data`
 }
 ```
 
-Para uma melhor peformance na consulta desses dados e do resultado do cálculo do *score* pode ser utilizado o *[REDIS](https://redis.io/)*, um armazenamento de estrutura de dados em memória, assim com esses dados em *cache* teremos uma resposta mais rápida nesse serviço.
+Para uma melhor peformance na consulta desses dados e do resultado do cálculo do *score* é utilizado o *[REDIS](https://redis.io/)*, um armazenamento de estrutura de dados em memória, assim com esses dados em *cache* teremos uma resposta mais rápida nesse serviço.
 
 ### Sistema C
 
